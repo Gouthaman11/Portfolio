@@ -36,7 +36,7 @@
             align-items: center;
             position: relative;
             overflow: hidden;
-            padding: 100px 1.5rem;
+            /* Removed fixed padding from here. Now applied directly to section tags. */
             box-sizing: border-box; /* Ensures padding is included in height */
         }
         /* Animation for content appearing on section - Refined for professional graphics */
@@ -250,12 +250,12 @@
     <main id="scroll-container">
 
         <!-- Hero Section -->
-        <section id="home" class="section">
+        <section id="home" class="section py-20 px-4 sm:px-6 lg:px-8">
             <div class="aurora-bg">
                 <div class="aurora-blob w-96 h-96 bg-red-600" id="blob1"></div>
                 <div class="aurora-blob w-96 h-96 bg-amber-500" id="blob2"></div>
             </div>
-            <div class="text-center">
+            <div class="text-center container mx-auto">
                 <div class="animated-content">
                     <h1 class="text-4xl sm:text-6xl md:text-7xl font-bold text-white leading-tight mb-4">
                         Hi, I'm <span class="text-amber-400">Gouthaman A</span>
@@ -275,7 +275,7 @@
         </section>
 
         <!-- About Me Section -->
-        <section id="about" class="section">
+        <section id="about" class="section py-20 px-4 sm:px-6 lg:px-8">
             <div class="container mx-auto flex flex-col md:flex-row items-center gap-8 md:gap-12">
                 <div class="md:w-1/3 animated-content flex-shrink-0">
                      <img src="https://placehold.co/400x400/292524/fde68a?text=GA"
@@ -295,7 +295,7 @@
         </section>
 
         <!-- Projects Section -->
-        <section id="projects" class="section">
+        <section id="projects" class="section py-20 px-4 sm:px-6 lg:px-8">
             <div class="container mx-auto">
                 <div class="text-center animated-content">
                     <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white">My Projects</h2>
@@ -358,7 +358,7 @@
         </section>
 
         <!-- Skills Section -->
-        <section id="skills" class="section">
+        <section id="skills" class="section py-20 px-4 sm:px-6 lg:px-8">
              <div class="container mx-auto text-center">
                 <div class="animated-content">
                     <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white">Technical Skills</h2>
@@ -423,7 +423,7 @@
         </section>
 
         <!-- Certifications Section -->
-        <section id="testimonials" class="section">
+        <section id="testimonials" class="section py-20 px-4 sm:px-6 lg:px-8">
             <div class="container mx-auto text-center">
                 <div class="animated-content">
                     <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white">Certifications & Recognition</h2>
@@ -463,7 +463,7 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="section flex-col">
+        <section id="contact" class="section flex-col py-20 px-4 sm:px-6 lg:px-8">
              <div class="aurora-bg">
                 <div class="aurora-blob w-96 h-96 bg-red-600" id="blob3"></div>
                 <div class="aurora-blob w-96 h-96 bg-amber-500" id="blob4"></div>
@@ -473,6 +473,8 @@
                     <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white">Get In Touch</h2>
                     <p class="text-orange-400 mt-2 mb-8">Have a project in mind? Let's talk.</p>
                 </div>
+
+                <!-- Original Contact Form -->
                 <form id="contact-form" class="space-y-6 animated-content delay-1 w-full">
                     <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_ACCESS_KEY"> <!-- Replace with your actual Web3Forms Access Key -->
                     <input type="hidden" name="subject" value="New Contact Form Submission from Portfolio">
@@ -751,7 +753,6 @@
 
         // --- Set Copyright Year ---
         document.getElementById('copyright-year').textContent = new Date().getFullYear();
-
     </script>
 </body>
 </html>
