@@ -87,19 +87,6 @@ const Navbar = () => {
 
       {/* Mobile Menu Sidebar */}
       <div className={`mobile-menu ${isMobileMenuOpen ? 'open' : ''}`}>
-        <div className="mobile-menu-header">
-          <a href="#hero" className="logo" onClick={() => setIsMobileMenuOpen(false)}>
-            <span className="logo-bracket">&lt;</span>
-            <span className="logo-text">GA</span>
-            <span className="logo-bracket">/&gt;</span>
-          </a>
-          <button 
-            className="mobile-close-btn"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            <i className="fas fa-times"></i>
-          </button>
-        </div>
         <ul className="mobile-nav-links">
           {navLinks.map((link, index) => (
             <li key={link.href} style={{ animationDelay: `${index * 0.1}s` }}>
