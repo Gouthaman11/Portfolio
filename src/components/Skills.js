@@ -41,8 +41,8 @@ const Skills = () => {
       icon: 'fas fa-shield-alt',
       iconClass: 'security',
       skills: [
-        { name: 'Network Security', percent: 75 },
-        { name: 'Penetration Testing', percent: 68 },
+        { name: 'Network Security', percent: 68 },
+        { name: 'Bug Bounty', percent: 65 },
 
       ]
     },

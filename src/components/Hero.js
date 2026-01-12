@@ -70,7 +70,7 @@ const Hero = () => {
                 <i className="fas fa-terminal"></i>
               </div>
               <div className="hero-role">
-                <span className="role-static">I'm a </span>
+                <span className="role-static">I'm a&nbsp;</span>
                 <span className="role-dynamic">{displayText}</span>
                 <span className="cursor"></span>
               </div>
