@@ -63,7 +63,7 @@ const Projects = () => {
         </div>
 
         <div className="view-all">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+          <a href="https://github.com/Gouthaman11" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
             View All Projects <i className="fas fa-arrow-right"></i>
           </a>
         </div>
