@@ -86,7 +86,7 @@ const About = () => {
           <div className="about-text">
             <h3>Dedicated IT Student & Developer</h3>
             <p>
-              I'm a third-year Information Technology student with a passion for
+              I'm a final-year Information Technology student with a passion for
               creating innovative solutions that bridge the gap between technology
               and real-world problems. My journey in tech started with curiosity
               about how things work, and has evolved into a commitment to building

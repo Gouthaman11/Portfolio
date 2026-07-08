@@ -19,12 +19,12 @@ const Projects = () => {
       demoUrl: 'https://gen-ai-indol-eta.vercel.app/',
     },
     {
-      title: 'CyberSec -Threat Detection & Analysis Platform',
-      description: 'Collaborative task management platform with real-time updates, team workspaces, and productivity analytics. Features drag-and-drop interface and mobile responsiveness.',
-      image: 'https://www.sangfor.com/sites/default/files/inline-images/What%20is%20Threat%20Detection.jpg',
-      tags: ['React', 'Firebase', 'TypeScript'],
-      codeUrl: 'https://github.com/Gouthaman11/CyberSec',
-      demoUrl: '#',
+      title: 'Growth Monitoring System',
+      description: 'Student growth monitoring platform with role-based dashboards, performance analytics, academic tracking. Features secure RESTful APIs and scalability seamlessly.',
+      image: 'https://i.pinimg.com/736x/0f/20/85/0f20856767b5071e9016703aa8fd0809.jpg',
+      tags: ['React', 'Node.js', 'AWS RDS', 'EC2'],
+      codeUrl: 'https://github.com/Gouthaman11/growth',
+      demoUrl: 'https://edugrow-plus.vercel.app/',
     },
 
   ];

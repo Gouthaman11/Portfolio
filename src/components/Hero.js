@@ -29,8 +29,7 @@ const Hero = () => {
   }, [displayText, isDeleting, roleIndex, roles]);
 
   const stats = [
-    { number: '2+', label: 'Years Experience', icon: 'fas fa-briefcase' },
-    { number: '3+', label: 'Projects Completed', icon: 'fas fa-code' },
+    { number: '4+', label: 'Projects Completed', icon: 'fas fa-code' },
     { number: '2', label: 'Certifications', icon: 'fas fa-certificate' },
   ];
 
@@ -135,7 +134,7 @@ const Hero = () => {
                     </div>
                     <div className="code-line">
                       <span className="line-number">3</span>
-                      <span className="code-prop">  skills</span>: [<span className="code-string">"React"</span>, <span className="code-string">"Node"</span>, <span className="code-string">"Python"</span>],
+                      <span className="code-prop">  skills</span>: [<span className="code-string">"React"</span>, <span className="code-string">"Node"</span>, <span className="code-string">"Java"</span>],
                     </div>
                     <div className="code-line">
                       <span className="line-number">4</span>
